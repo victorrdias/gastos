@@ -42,7 +42,8 @@ export default function ExpenseList({
   if (expenses.length === 0) {
     return (
       <p className="text-gray-500 text-center py-8">
-        Nenhuma despesa registrada ainda. Clique em "Nova Despesa" para começar.
+        Nenhuma despesa registrada ainda. Clique em &quot;Nova Despesa&quot;
+        para começar.
       </p>
     );
   }
